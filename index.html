@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: "Do Hyeon", sans-serif;
+        }
+        .item-container{
+            width: 480px;
+            background-color: aqua;
+            padding: 20px;
+        }
+        img{
+            width: 100%;
+        }
+        .image-box{
+            margin-bottom: 24px;
+            position: relative;
+        }
+        .badge-box{
+            display: flex;
+            gap: 8px;
+            position: absolute;
+            top: 12px;
+            left: 12px;
+        }
+        .badge{
+            padding: 6px 12px;
+            border: 1px solid;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+        .title-box{
+            background-color: aquamarine;
+            margin-bottom: 24;
+        }
+        .price-box{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <div class="item-container">
+        <div class="image-box"> 
+            <div class="badge-box">
+                <div class="badge badge-1">뱃지1</div>
+                <div class="badge badge-2">뱃지2</div>
+            </div>
+            <img src="img-1.png" alt="매월매주 3종 패키지 모습">
+        </div>
+        <div class="title-box">
+            <h1>매월한잔 3종 박스</h1>
+            <p>미니어쳐 바틀 3종 + 큐레이션 카드</p>
+        </div>
+        <div class="price-box">
+            25,900원 / 월
+        </div>
+    </div>
+</body>
+</html>
